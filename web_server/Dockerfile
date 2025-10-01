@@ -28,7 +28,7 @@ COPY docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh
 
 # Expose ports
-EXPOSE 80
+EXPOSE 443
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["/usr/sbin/nginx"]
