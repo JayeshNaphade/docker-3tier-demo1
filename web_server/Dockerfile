@@ -1,4 +1,4 @@
-FROM caas-registry:5000/library/ubuntu
+FROM ubuntu:22.04
 
 MAINTAINER franco.fiorese@gmail.com
 
